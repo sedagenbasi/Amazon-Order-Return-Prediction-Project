@@ -28,8 +28,16 @@ Bu projede veri sızıntısını önlemek ve model başarısını artırmak içi
 Yapılan testler sonucunda XGBoost algoritması, Random Forest'a göre daha yüksek başarı göstermiştir.
 
 <img width="768" height="287" alt="image" src="https://github.com/user-attachments/assets/fcb610c1-763f-49c8-a23a-2ab0b22fdb2c" />
+
 Not: Eğitim seti dengelendiği için modelin genel doğruluğu (Accuracy) düşmüştür. Ancak bu bilinçli bir "Trade-off"tur. Bu sayede ham veriyle %0 olan iade yakalama oranı %53'e çıkarılmıştır.
 
+## 🔑 Temel Bulgular (Feature Importance)
+Modelin analizine göre iade kararını etkileyen en önemli faktörler şunlardır:
+- Unit Price (Birim Fiyat)
+- Total Amount (Toplam Tutar)
+- Shipping Ratio (Kargo Oranı)
+
+Analizler, finansal parametrelerin (Fiyat ve Kargo Maliyeti), marka veya kategoriden daha belirleyici olduğunu göstermektedir.
 <img width="626" height="470" alt="image" src="https://github.com/user-attachments/assets/d3966c5d-509b-4a47-a4bb-41043dac0ca6" />
 <img width="894" height="513" alt="image" src="https://github.com/user-attachments/assets/f489c0ee-6b67-47b2-9697-c02a0189734b" />
 
