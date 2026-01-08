@@ -28,4 +28,8 @@ Bu projede veri sızıntısını önlemek ve model başarısını artırmak içi
 Yapılan testler sonucunda XGBoost algoritması, Random Forest'a göre daha yüksek başarı göstermiştir.
 
 <img width="768" height="287" alt="image" src="https://github.com/user-attachments/assets/fcb610c1-763f-49c8-a23a-2ab0b22fdb2c" />
+<img width="626" height="470" alt="image" src="https://github.com/user-attachments/assets/d3966c5d-509b-4a47-a4bb-41043dac0ca6" />
+<img width="894" height="513" alt="image" src="https://github.com/user-attachments/assets/f489c0ee-6b67-47b2-9697-c02a0189734b" />
+
+
 
